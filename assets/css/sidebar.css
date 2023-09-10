@@ -1,0 +1,15 @@
+
+.global_tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.global_tags .page-item {
+    margin-top: .5rem;
+    margin-left: .5rem;
+}

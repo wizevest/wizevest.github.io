@@ -22,6 +22,9 @@
     <!-- Theme Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
 
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/sidebar.css">
+
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -43,9 +46,11 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            {% comment %}
             <ul class="navbar-nav mr-auto d-flex align-items-center">
                {% include menu-header.html %}
             </ul>
+            {% endcomment %}
             <ul class="navbar-nav ml-auto d-flex align-items-center">
                 {% include search-lunr.html %}
             </ul>
@@ -79,12 +84,10 @@
             <div>
                 <span class="navbar-brand mr-2 mb-0"><strong>WizeVest</strong></span>
                 <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
-
-                
-
             </div>
+
             <div>
-                Get in touch by <a target="_blank" class="text-dark font-weight-bold" href="/contact.html"> Contacting Us </a>.
+                View our <a target="_blank" class="text-dark font-weight-bold" href="/privacy-policy.html"> Privacy Policy & Terms </a>.
             </div>
         </div>
         </div>

@@ -1,5 +1,8 @@
+
 <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
+    {% comment %}
+    
+    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>
     <ol class="list-featured">				
         {% for post in site.tags.featured %}                
             <li class="mb-4">
@@ -18,4 +21,20 @@
             </li>                
         {% endfor %}   
     </ol>
+
+    {% endcomment %}
+    
+    <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>
+    <ul class="global_tags">
+    {% for cat in site.categories %}
+        <li class="page-item"><a class="page-link" href="{{ "categories.html#" | append: cat[0]  | prepend: site.baseurl | replace: '//', '/' }}">{{ cat[0] }}</a></li>
+    {% endfor %}
+    </ul>
+    
+    <h4 class="font-weight-bold spanborder"><span>All Tags</span></h4>
+    <ul class="global_tags">
+    {% for tag in site.tags %}
+        <li class="page-item"><a class="page-link" href="{{ "tags.html#" | append: tag[0]  | prepend: site.baseurl | replace: '//', '/' }}">{{ tag[0] }}</a></li>
+    {% endfor %}
+    </ul>
 </div> 

@@ -8,7 +8,7 @@ permalink: "/privacy-policy.html"
 
 #### Collection of Routine Information
 
-This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.
+This website tracks basic information about visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.
 
 
 #### Cookies
@@ -23,7 +23,7 @@ Advertising partners and other third parties may use cookies, scripts and/or web
 
 #### Links to Third Party Websites
 
-We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
+We have included third party links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
 
 
 #### Security
