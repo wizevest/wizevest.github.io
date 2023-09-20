@@ -1,0 +1,13 @@
+img.post_img {
+    width: 65%;
+    margin: 3rem auto;
+    display: block;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+img.post_img_wide {
+    width: 80%;
+    margin: 3rem auto;
+    display: block;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
